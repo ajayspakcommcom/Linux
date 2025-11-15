@@ -1,0 +1,213 @@
+
+Basic Level Commands
+
+  Navigation & File System
+    pwd - Print working directory
+    ls - List directory contents (ls -la for detailed view)
+    cd - Change directory
+    mkdir - Make directories
+    rmdir - Remove empty directories
+    touch - Create empty files or update timestamps
+    rm - Remove files (rm -r for directories)
+    cp - Copy files and directories
+    mv - Move or rename files
+    cat - Display file contents
+    less - View file contents page by page
+    more - Similar to less
+    head - Display first lines of a file
+    tail - Display last lines of a file
+
+
+  File Information  
+    file - Determine file type
+    stat - Display file statistics
+    wc - Word, line, and byte count
+
+  Basic System Info
+    whoami - Display current user
+    date - Show system date and time
+    cal - Display calendar
+    clear - Clear terminal screen
+    history - Show command history
+    echo - Display text or variables
+
+
+
+Intermediate Level Commands
+
+  File Searching & Processing
+    find - Search for files in directories
+    locate - Find files by name (uses database)
+    grep - Search text patterns in files
+    egrep - Extended grep with regex
+    sed - Stream editor for text manipulation
+    awk - Pattern scanning and processing
+    cut - Remove sections from lines
+    sort - Sort lines of text
+    uniq - Report or omit repeated lines
+    diff - Compare files line by line
+    comm - Compare sorted files
+
+  File Permissions & Ownership
+    chmod - Change file permissions
+    chown - Change file owner
+    chgrp - Change group ownership
+    umask - Set default permissions
+
+  Archives & Compression
+    tar - Archive files
+    gzip - Compress files
+    gunzip - Decompress gzip files
+    bzip2 - Compress with bzip2
+    zip - Package and compress files
+    unzip - Extract zip archives
+
+  Process Management
+    ps - Display process status
+    top - Real-time process monitoring
+    htop - Interactive process viewer
+    kill - Terminate processes
+    killall - Kill processes by name
+    bg - Send job to background
+    fg - Bring job to foreground
+    jobs - List background jobs
+    nohup - Run command immune to hangups
+
+  Disk Usage
+    df - Display disk space usage
+    du - Estimate file space usage
+    mount - Mount filesystems
+    umount - Unmount filesystems
+
+  Networking Basics
+    ping - Test network connectivity
+    ifconfig - Configure network interfaces (older)
+    ip - Show/manipulate routing and devices
+    netstat - Network statistics
+    wget - Download files from web
+    curl - Transfer data from URLs
+
+  User Management
+    useradd - Add new user
+    userdel - Delete user
+    usermod - Modify user account
+    passwd - Change user password
+    su - Switch user
+    sudo - Execute command as superuser
+
+
+
+Advanced Level Commands
+
+  System Administration
+    systemctl - Control systemd services
+    service - Run System V init scripts
+    journalctl - Query systemd logs
+    dmesg - Display kernel ring buffer messages
+    lsof - List open files
+    fuser - Identify processes using files
+    strace - Trace system calls
+    ltrace - Trace library calls
+    cron - Schedule periodic tasks
+    at - Schedule one-time tasks
+    anacron - Run commands periodically
+
+
+  Advanced Networking
+    ss - Socket statistics (modern netstat)
+    nmap - Network exploration and security scanner
+    tcpdump - Packet analyzer
+    iptables - Configure firewall rules
+    nft - Nftables firewall configuration
+    ssh - Secure shell remote login
+    scp - Secure copy over SSH
+    rsync - Remote file synchronization
+    nc (netcat) - Network utility for reading/writing network connections
+    traceroute - Trace packet route to host
+    dig - DNS lookup utility
+    nslookup - Query DNS servers
+    host - DNS lookup
+
+  Disk & Filesystem Management
+    fdisk - Partition table manipulator
+    parted - Partition manipulation program
+    mkfs - Create filesystem
+    fsck - Filesystem consistency check
+    lsblk - List block devices
+    blkid - Locate block device attributes
+    dd - Convert and copy files (disk imaging)
+    mdadm - Manage RAID arrays
+    lvm - Logical Volume Manager
+
+
+  Performance & Monitoring
+    vmstat - Virtual memory statistics
+    iostat - CPU and I/O statistics
+    sar - System activity reporter
+    mpstat - Multiprocessor statistics
+    iotop - I/O monitoring per process
+    perf - Performance analysis tool
+    sysctl - Configure kernel parameters
+
+  Advanced Text Processing
+    tr - Translate or delete characters
+    tee - Read from stdin and write to stdout and files
+    xargs - Build and execute commands from input
+    parallel - Execute jobs in parallel
+    jq - JSON processor
+    xmllint - XML parser and validator
+    column - Format output into columns
+
+  Package Managemen
+    Debian/Ubuntu: apt, apt-get, dpkg, aptitude
+    RedHat/CentOS: yum, dnf, rpm
+    Arch: pacman
+    snap - Install snap packages
+    flatpak - Install flatpak applications
+
+  Security & Encryption
+    gpg - GNU Privacy Guard encryption
+    openssl - SSL/TLS toolkit
+    ssh-keygen - Generate SSH keys
+    iptables-save/restore - Save/restore firewall rules
+    fail2ban - Intrusion prevention
+    selinux - Security-Enhanced Linux commands
+    apparmor - Application security framework
+
+  Advanced Shell Features
+    alias - Create command shortcuts
+    source or . - Execute commands from file
+    export - Set environment variables
+    env - Display environment variables
+    exec - Replace shell with command
+    eval - Evaluate arguments as command
+    trap - Catch signals in scripts
+
+  Specialized Tools
+    screen - Terminal multiplexer
+    tmux - Modern terminal multiplexer
+    vim/nano/emacs - Text editors
+    git - Version control system
+    make - Build automation tool
+    gcc/g++ - Compilers
+    gdb - GNU debugger
+    valgrind - Memory debugging and profiling
+    docker - Container management
+    kubectl - Kubernetes cluster management
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+  
